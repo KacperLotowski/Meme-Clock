@@ -1,0 +1,107 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+  }
+  
+  /* ::-webkit-scrollbar {
+    display: none;
+  } */
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: none;
+    transition: all 0.5s ease;
+  }
+
+  .meme-clock {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+  }
+  
+  #time {
+    width: 100%;
+    position: absolute;
+    font-size: 300px;
+    opacity: 0.2;
+    text-align: center;
+    align-self: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  #meme {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background-image: none;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+  }
+
+/* REACTIONS  */
+
+
+  .card-list {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;    
+  }
+
+  #reaction-background {
+    width: 50%;
+    height: 30vh;
+    justify-content: center;
+    background-size: contain;
+    justify-self: center;
+  }
+  
+  .card {
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+  }
+  
+  .card:hover{
+    transform: rotateY(180deg);
+  }
+
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+
+  .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+  }
+  
+  .back {
+    align-content: center;
+    transform: rotateY(180deg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+
+  
