@@ -2,7 +2,7 @@
     font-family: 'Kanit', sans-serif;
     margin: 0px;
   }
-  
+
   /* ::-webkit-scrollbar {
     display: none;
   } */
@@ -19,6 +19,7 @@
     position: relative;
     height: 50vh;
     width: 100vw;
+    align-content: center;
   }
   
   #time {
@@ -30,6 +31,7 @@
     align-self: center;
     transition: all 0.5s ease;
     cursor: pointer;
+    line-height: 1;
   }
 
   #meme {

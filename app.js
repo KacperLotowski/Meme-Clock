@@ -86,7 +86,7 @@ function randomReactions(react) {
   sad.addEventListener("mouseenter", () => {bgColor.style.background = "#00798C"});
   hmmm.addEventListener("mouseenter", () => {bgColor.style.background = "#30638E"});
   wtf.addEventListener("mouseenter", () => {bgColor.style.background = "#B7AD99"});
-  misc.addEventListener("mouseenter", () => {bgColor.style.background = "#131200"});
+  misc.addEventListener("mouseenter", () => {bgColor.style.background = "#404040"});
   
 
   let fileNamesReactions = [
