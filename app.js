@@ -120,7 +120,7 @@ startTime();
 
 switchTime();
 
-randomMeme()
+// randomMeme()
 
 randomReactions("happy");
 randomReactions("sad");
